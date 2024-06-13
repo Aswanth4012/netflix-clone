@@ -12,7 +12,7 @@
             <div class="container">
                 <div class="main">
                     <div class="top">
-                        <div class="left"><img src="Images/logos/netflix-log.png" style="width: 150px;height: 50px;"></div>
+                        <div class="left"><img src="Images/logos/netflix-log.png"></div>
                         <div class="right">
                             <select name="" id="language" class="nav-btns">
                                 <option value="">English</option>
@@ -63,7 +63,7 @@
                             <p class="st">Stranger Things</p>
                             <p class="dow">Downloading...</p>
                         </div>
-                        <div class="icon"><i class="fa-solid fa-download"></i></div>
+                        <div class="icon"><img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"></div>
                     </div>
                     <img src="Images/mobile-strangerthings.jpg" id="mobile" alt="strangerthings img">
                 </div>
@@ -132,7 +132,7 @@
                     <div class="q"><p>Is Netflix good for kids?</p></div>
                     <div class="more"><p>+</p></div>
                 </div>
-                <p class="p2" style="margin-top: 50px;">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="ready-to-watch"><p class="p2" style="margin-top: 50px;">Ready to watch? Enter your email to create or restart your membership.</p></div>
                     <div class="registration">
                         <input type="email" placeholder="Email address">
                         <button class="get-started">Get Started ></button>
@@ -142,40 +142,47 @@
     </section>
     <footer>
         <div class="container">
-            <table>
-                <tr>
-                    <td><p>Questions? Call <u>000-800-919-1694</u></p></td>
-                </tr>
-                <tr>
-                    <td><a href="#">FAQ</a></td>
-                    <td><a href="#">Help Centre</a></td>
-                    <td><a href="#">Account</a></td>
-                    <td><a href="#">Media Centre</a></td>
-                </tr>
-                <tr>
-                    <td><a href="#">Investor Relations</a></td>
-                    <td><a href="#">Jobs</a></td>
-                    <td><a href="#">Ways to watch</a></td>
-                    <td><a href="#">Terms of Use</a></td>
-                </tr>
-                <tr>
-                    <td><a href="#">Privacy</a></td>
-                    <td><a href="#">Cookie Preference</a></td>
-                    <td><a href="#">Corporate Information</a></td>
-                    <td><a href="#">Contact Us</a></td>
-                </tr>
-                <tr>
-                    <td><a href="#">Speed Test</a></td>
-                    <td><a href="#">Legal Notice</a></td>
-                    <td><a href="#">Only on Netflix</a></td>
-                </tr>
-                <tr>
-                    <td><button class="nav-btns" id="signin">Sign In</button></td>
-                </tr>
-                <tr>
-                    <td><p>Netflix India</p></td>
-                </tr>
-            </table>
+            <div id="number"><p>Questions? Call <a href="#">000-800-919-1694</a></p></div>
+            <div class="row">
+                <div class="col col-1">
+                    <ul class="list">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Speed Test</a></li>
+                        <li>
+                            <select name="" id="language" class="footer-btn">
+                                <option value="">English</option>
+                            </select>
+                        </li>
+                        <li style="color: #FFFFFFB6;font-family: 'Sarabun', sans-serif;">Netflix India</li>
+                    </ul>
+                </div>
+                <div class="col col-2">
+                    <ul class="list">
+                        <li><a href="#">Help Centre</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Cookie Preferences</a></li>
+                        <li><a href="#">Legal Notices</a></li>
+                    </ul>
+                </div>
+                <div class="col col-3">
+                    <ul class="list">
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Ways to Watch</a></li>
+                        <li><a href="#">Corporate Information</a></li>
+                        <li><a href="#">Only on Netflix</a></li>
+                    </ul>
+                </div>
+                <div class="col col-4">
+                    <ul class="list">
+                        <li><a href="#">Media Centre</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/11998b0979.js" crossorigin="anonymous"></script>
